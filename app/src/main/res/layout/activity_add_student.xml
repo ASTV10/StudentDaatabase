@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <EditText
+        android:id="@+id/editLastName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Фамилия" />
+
+    <EditText
+        android:id="@+id/editFirstName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Имя" />
+
+    <EditText
+        android:id="@+id/editMiddleName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Отчество" />
+
+    <EditText
+        android:id="@+id/editBirthDate"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Дата рождения" />
+
+    <!-- Используем AutoCompleteTextView для выпадающего списка групп -->
+    <Spinner
+        android:id="@+id/spinnerGroup"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+    <!-- Порог для начала поиска -->
+
+    <Button
+        android:id="@+id/btn_save"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Сохранить" />
+
+    <Button
+        android:id="@+id/btn_cancel"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Отмена" />
+</LinearLayout>

@@ -1,0 +1,53 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <!-- Поле для фамилии -->
+    <EditText
+        android:id="@+id/editLastName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Фамилия" />
+
+    <!-- Поле для имени -->
+    <EditText
+        android:id="@+id/editFirstName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Имя" />
+
+    <!-- Поле для отчества -->
+    <EditText
+        android:id="@+id/editMiddleName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Отчество" />
+
+    <!-- Поле для даты рождения -->
+    <EditText
+        android:id="@+id/editBirthDate"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Дата рождения" />
+
+    <Spinner
+        android:id="@+id/spinnerGroup"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <!-- Кнопка для сохранения -->
+    <Button
+        android:id="@+id/btnSave"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Сохранить" />
+
+    <!-- Кнопка для отмены -->
+    <Button
+        android:id="@+id/btnCancel"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Отмена" />
+</LinearLayout>

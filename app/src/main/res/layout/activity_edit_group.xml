@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <!-- Поле для ввода названия группы -->
+    <EditText
+        android:id="@+id/et_group_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter Group Name"/>
+
+    <!-- Поле для ввода факультета -->
+    <EditText
+        android:id="@+id/et_faculty_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter Faculty Name"
+        android:inputType="text"/>
+
+    <!-- Кнопка для сохранения -->
+    <Button
+        android:id="@+id/btn_save_group"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Сохранить" />
+
+    <!-- Кнопка для отмены -->
+    <Button
+        android:id="@+id/btn_cancel"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Отмена" />
+</LinearLayout>
